@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Teko', sans-serif;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: gold;
+
+}
+
+/*          HEADER          */
+.header__nav{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 80, 80); 
+
+}
+.header__logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__tittle{
+    color: gold;
+    margin-bottom : 1%;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin-bottom: 1em;
+}
+.header__img{
+    height: 5em;
+    justify-content: center;
+}
+.header__list--special{
+    display: none;
+}
+.header__item {
+    font-size: 20px;
+    font-weight: Regular 400;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 10em;
+    background-color: rgba(43, 42, 44, 0.883);
+}
+
+
+/*          MAIN            */
+.banner__content{
+    background-image: url(../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 34em;
+    padding-top: 10em;
+    padding-left: 2em;
+}
+.banner__tittle{
+    color: aliceblue;
+    font-size: 300%;
+}
+.banner__parrafo{
+    color: aliceblue;
+    font-size: 250%
+}
+.banner__tittle--button{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 180%;
+}
+
+
+.main__article{
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
+}
+.article__header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 28, 28);
+    color: gold;
+}
+.article__content{
+    background-color:rgb(81, 80, 80);
+    display: flex;
+}
+.article__section{
+    background-color: white;
+    margin: 3%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+}
+.article__section p{
+    text-align: center;
+    padding: 3%;
+    font-size: 25px;
+}
+
+
+/*          FOOTER          */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 80, 80);
+}
+.footer__tittle{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 28, 28);
+    color: gold;
+}
+.footer__modal{
+    background-color: rgb(81, 80, 80);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer__img{
+    height: 30px;
+}
+.footer__local{
+    display: flex;
+    flex-direction: column;
+}
+.footer__map{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 80, 80);
+}
