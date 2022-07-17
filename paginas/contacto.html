@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;500&display=swap" rel="stylesheet">  
     <!-- link a css -->
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,7 +18,11 @@
         <nav class="header__nav">      
             <div class="header__logo">
                 <a href="../index.html"><img class="header__img" src="../recursos/logo-amarillo.png"></a> 
-                <h1 class="header__tittle">Tecnicos Electronicos Asociados</h1>
+            </div>
+            <div class="header__tittle">
+                <p>Tecnicos</p>
+                <p>Electronicos</p>
+                <p>Asociados</p>
             </div>
             <ul class="header__list">
                 <li class="header__item"><a href="../index.html"> Inicio</a></li>
@@ -48,52 +52,65 @@
 
 
     <!-- Comienzo del main -->
-    <main>
-        <h2>Contactanos</h2>
-        <h3>completa el formulario y nuestros agentes se comunicaran a la brevedad</h3>
-        <div class="formulario">
-            <form method="post">
-                <h3>Selecciona el/los campos que te interesan</h3>
-                <fieldset>
-                    <legend>Seguridad Domiciliaria</legend>
-                        <label>Alarmas Domiciliarias</label><input type="checkbox">
-                        <label>Deteccion de Incendios</label><input type="checkbox">
-                        <label>Video Vigilancia</label> <input type="checkbox">
-                        <label>Control de Accesos</label> <input type="checkbox">
-                    </fieldset>
-                <label>email</label>
-                <input type="email">
-                <label>telefono</label>
-                <input type="number">
-                <label> nombre</label>
-                <input type="text">
-                <label> apellido</label>
-                <input type="text">
-                <input type="submit" value="Enviar formulario">
-            </form>
+    <main class="contacto__content">
+        <div class="contacto__intro">
+            <h2 class="contacto__tittle">Contactanos</h2>
+            <h3>completa el formulario y nuestros agentes se comunicaran a la brevedad</h3>
         </div>
+        <form method="post" class="conctacto__form">
+            <h3>Selecciona el/los campos que te interesan</h3>
+            <fieldset class="form__fieldset">
+                <legend class="fieldset__legend">Seguridad Domiciliaria</legend>
+                    <label class="fieldset__item">Alarmas Domiciliarias</label><input type="checkbox">
+                    <label class="fieldset__item">Deteccion de Incendios</label><input type="checkbox">
+                    <label class="fieldset__item">Video Vigilancia</label> <input type="checkbox">
+                    <label class="fieldset__item">Control de Accesos</label> <input type="checkbox">
+            </fieldset>
+            <label class="form__item">email</label>
+            <input type="email">
+            <label class="form__item">telefono</label>
+            <input type="number">
+            <label class="form__item"> nombre</label>
+            <input type="text">
+            <label class="form__item"> apellido</label>
+            <input type="text">
+            <input type="submit" value="Enviar formulario">
+        </form>
     </main>
 
 
     <!-- Comienzo footer -->
     <footer>
-        <div class="footer__social">
-            <div class="footer__tittle">
-                <h2>Seguinos en nuestras redes</h2>
+        <div class="footer__social footer">
+            <div class="footer__list">
+                <div class="footer__tittle">
+                    <h2>Indice</h2>
+                </div>
+                <ul>
+                    <li class="footer__item"><a href="#">Inicio </a></li>
+                    <li class="footer__item"><a href="paginas/seguridad-domiciliaria.html">Seguridad Domiciliaria</a></li>
+                    <li class="footer__item"><a href="paginas/seguridad-empresarial.html">Seguridad Empresarial</a></li>
+                    <li class="footer__item"><a href="paginas/sobre-nosotros.html"> Sobre Nosotros</a></li>
+                    <li class="footer__item"><a href="paginas/contacto.html"> Contacto</a></li>
+                </ul>
             </div>
+
             <div class="footer__modal">
+                <div class="footer__tittle">
+                    <h2>Seguinos en nuestras redes</h2>
+                </div>
                 <a href="https://www.facebook.com/"><img class="footer__img" src="../recursos/icons/facebook-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/instagram-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/whatsapp-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/telegram-brands.svg"></a>
             </div>
-        </div>
-        <div class="footer__local">
-            <div class="footer__tittle">
-                <h2>Encontranos en:</h2>
-            </div>
-            <div class="footer__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.391460910592!2d-58.80875475767753!3d-35.166648543799006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd19db638c4231%3A0xb5b638fcdfe71b41!2sLa%20Noria%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655645490949!5m2!1ses-419!2sar"></iframe>
+            <div class="footer__local">
+                <div class="footer__tittle">
+                    <h2>Encontranos en:</h2>
+                </div>
+                <div class="footer__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.391460910592!2d-58.80875475767753!3d-35.166648543799006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd19db638c4231%3A0xb5b638fcdfe71b41!2sLa%20Noria%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655645490949!5m2!1ses-419!2sar"></iframe>
+                </div>
             </div>
         </div>
     </footer>
