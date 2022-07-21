@@ -1,0 +1,22 @@
+{
+  "name": "29295",
+  "version": "1.0.0",
+  "description": "<h1>Pagina web de seguridad- proyecto en CoderHouse</h1>\r <p>Este sitio es para una empresa de seguridad pensado en el curso de desarrollo web</p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BornToBeSheep/pagina-web-seguridad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BornToBeSheep/pagina-web-seguridad/issues"
+  },
+  "homepage": "https://github.com/BornToBeSheep/pagina-web-seguridad#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}

@@ -217,6 +217,25 @@ a{
  */
 
 /*          PRIMERA SECCION         */
+.tarjeta__imagen{
+    height: 5vh;
+    width: 5vw;
+}
+.section__tittle{
+    background-color: grey;
+}
+.media__pagina{
+    width: 37vw;
+    height: auto;
+}
+
+
+
+
+
+
+
+
 .main__article{
     display: grid;
     width: 100vw;
@@ -296,6 +315,9 @@ a{
     h2{
         font-size: small;
     }
+    .borrarLista{
+        display: none;
+    }
     /*      BANNER      */
     .banner__content{
         height: 30vh;
@@ -312,6 +334,10 @@ a{
     .footer__local{
         justify-self: center;
     }
+
+    .ocultar{
+        display: none;
+    }
 }
 
 /*          MEDIA QUERIES TABLET            */
@@ -319,6 +345,9 @@ a{
         /*      TITULOS     */
         h2{
             font-size: larger;
+        }
+        .borrarLista{
+            display: none;
         }
         /*      BANNER      */
         .banner__content{
