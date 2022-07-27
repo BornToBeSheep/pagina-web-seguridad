@@ -4,24 +4,24 @@
 }
 body{
     font-family: 'Teko', sans-serif;
+    
 }
 nav ul li a{
-    color: gold;
-}
-a{
     text-decoration: none;
+    color: gold;
+
 }
 
-/*          HEADER        
+/*          HEADER          */
 .header__nav{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(81, 80, 80); 
 
 }
 .header__logo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 .header__tittle{
@@ -51,318 +51,96 @@ a{
     width: 10em;
     background-color: rgba(43, 42, 44, 0.883);
 }
-  */
-/*
-.body__content{
-    background-color: rgb(81, 80, 80);
-    width: 100vw;
-    height: 120vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: "nav"
-                        "banner"
-                        "domicilios"
-                        "empresas"
-                        "footer";
-}
 
 
-.nav{
-    grid-area: nav;
-}
-.banner{
-    grid-area: banner;
-}
-.domicilios{
-    grid-area: domicilios;
-}
-.empresas{
-    grid-area: empresas;
-}
-.footer{
-    grid-area: footer;
-}
-*/
-
-
-/*          BODY            */
-.body__content{
-    display: grid;
-    grid-template-areas: "nav"
-                        "banner"
-                        "article__first"
-                        "article__second"
-                        "footer";
-}
-.nav{
-    grid-area: nav;
-}
-.banner{
-    grid-area: banner;
-}
-.article__first{
-    grid-area: article__first;
-}
-.article__second{
-    grid-area: article__second;
-}
-.footer{
-    grid-area: footer;
-}
-
-
-/*          HEADER          */
-.header__nav{
-    background-color: rgb(81, 80, 80);
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-}
-.header__img{
-    padding-left: 0.9vw;
-    height: 8vw;
-}
-.header__tittle{
+/*          MAIN            */
+.banner__content{
+    background-image: url(../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg);
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    width: 15vw;
-    font-size: 1.9vw;
-    align-items: center;
-    justify-content: center;
-    color: gold;
-
-}
-.header__list{
-    background-color: rgb(81, 80, 80);
-    width: 85vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.header__item{
-    list-style: none;
-    font-size: 2vw;
-    font-weight: Regular 400;
-    align-self: center;
-    background-color:   rgba(43, 42, 44, 0.883);
-    color: gold;
-}
-.header__item--special{
-    display: none;
-}
-
-
-/*          BANNER          */
-.banner__content{
-    background-image: url("../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg");
-    background-size: cover;
-    background-position: top-center;
-
-    display: grid;
-    width: 100vw;
-    height: 55vh;
-    grid-template-areas: "banner__title"
-                        "banner__parrafo"
-                        "banner__tittle--button";
-    justify-items: start;
-    color: aliceblue;
-
+    height: 34em;
+    padding-top: 10em;
+    padding-left: 2em;
 }
 .banner__tittle{
-    font-size: 5vw;
-    align-self: end;
-    margin-left: 15vh;
+    color: aliceblue;
+    font-size: 300%;
 }
 .banner__parrafo{
-    font-size: 2.7vw;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    color: aliceblue;
+    font-size: 250%
 }
 .banner__tittle--button{
-    align-self: start;
-    height: 3vh;
-    margin-left: 27vw; 
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.438);
+    font-size: 180%;
 }
-
-/*          PAGINA DE CONTACTO     
-.contacto__content{
-    display: grid;
-    grid-template-areas: "contacto__intro"
-                        "contacto__form";
-    justify-items: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(81, 80, 80);
-}
-.contacto__intro{
-    background-color: rgb(28, 28, 28);
-    color: gold;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.contacto__form{
-    width: 70vw;
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    
-}
-.form__fieldset{
-    
-}
- */
-
-/*          PRIMERA SECCION         */
-.tarjeta__imagen{
-    height: 5vh;
-    width: 5vw;
-}
-.section__tittle{
-    background-color: grey;
-}
-.media__pagina{
-    width: 37vw;
-    height: auto;
-}
-
-
-
-
-
-
 
 
 .main__article{
-    display: grid;
-    width: 100vw;
-    grid-template-areas: "article__header"
-                        "article__content";
-    background-color:  rgb(81, 80, 80);
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
 }
 .article__header{
+    display: flex;
+    justify-content: center;
     background-color: rgb(28, 28, 28);
     color: gold;
-    align-self: center;
-    justify-self: center;
 }
 .article__content{
-    grid-area: article__content;
+    background-color:rgb(81, 80, 80);
     display: flex;
 }
 .article__section{
-    background-image: linear-gradient(to right, red, yellow);
+    background-color: white;
     margin: 3%;
     border-radius: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1.9vw;
-    transition: all 300ms;
-}
-.article__section:hover{
-    transform: scale(1.05);
-    background-image: linear-gradient(to right, yellow, red);
+    font-size: 23px;
 }
 .article__section p{
     text-align: center;
-    padding: 1%;
-    font-size: 1.5vw;
+    padding: 3%;
+    font-size: 25px;
 }
 
 
-
-/*            FOOTER          */
+/*          FOOTER          */
+footer{
+    display: flex;
+    flex-direction: column;
+}
 .footer__social{
-    background-color:rgb(81, 80, 80);
-    display: grid;
-    grid-template-areas: "list map"
-                        "modal modal";
-    align-content: space-between;
-    color: gold;
-}
-.footer__list{
-    grid-area: list;
-    justify-self: center;
-}
-.footer__local{
-    grid-area: map;
-    justify-self: left;
-}
-.footer__modal{
-    grid-area: modal;
-    justify-self: center;
-    align-self: center;
-}
-.footer__item{
-    list-style: none;
-    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(81, 80, 80);
 }
 .footer__tittle{
+    display: flex;
+    justify-content: center;
     background-color: rgb(28, 28, 28);
+    color: gold;
+}
+.footer__modal{
+    background-color: rgb(81, 80, 80);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .footer__img{
-    height: 3vh;
-    justify-self: center;
+    height: 30px;
 }
-
-/*          MEDIA QUERIES CELULAR          */
-@media (min-width: 320px) and (max-width: 575px) {
-    /*      TITULOS     */
-    h2{
-        font-size: small;
-    }
-    .borrarLista{
-        display: none;
-    }
-    /*      BANNER      */
-    .banner__content{
-        height: 30vh;
-    }
-    /*      CARDS      */
-    .article__content{
-        flex-direction: column;
-    }
-    .footer__social{
-        grid-template-areas: "list"
-                            "map"
-                            "modal";
-    }
-    .footer__local{
-        justify-self: center;
-    }
-
-    .ocultar{
-        display: none;
-    }
+.footer__local{
+    display: flex;
+    flex-direction: column;
 }
-
-/*          MEDIA QUERIES TABLET            */
-@media (min-width: 576px) and (max-width: 992px){
-        /*      TITULOS     */
-        h2{
-            font-size: larger;
-        }
-        .borrarLista{
-            display: none;
-        }
-        /*      BANNER      */
-        .banner__content{
-            height: 40vh;
-        }
-        /*      CARDS      */
-        .article__content{
-            flex-direction: column;
-        }
-        .footer__social{
-            grid-template-areas: "list"
-                                "map"
-                                "modal";
-        }
-        .footer__local{
-            justify-self: center;
-        }
+.footer__map{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(81, 80, 80);
 }

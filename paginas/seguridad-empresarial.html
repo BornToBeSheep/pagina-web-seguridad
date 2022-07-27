@@ -17,17 +17,17 @@
 <body>
     <!-- Comienzo del header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-secondary ">
+        <nav class="navbar navbar-expand-lg bg-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand fs-2" href="../index.html">
                     <img src="../recursos/logo-amarillo.png" alt="" width="38" height="55" class="d-inline-block align-text-top">
                 </a>
-                <a class="navbar-brand fs-2">Tecnicos Electronicos Asociados</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand text-light fs-2">Tecnicos Electronicos Asociados</a>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav borrarLista">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="nav-link fs-3 text-warning" aria-current="page" href="../index.html">Inicio</a>
                         </li>
@@ -52,25 +52,8 @@
 
     <!-- Comienzo del main -->
     <main>
-        <section class="banner__content">
-            <h2 class="banner__tittle">Volve a disfrutar la vida</h2>
-            <p class="banner__parrafo">Protege tu casa y olvidate de la inseguridad</p>
-            <button class="banner__tittle--button">Arma tu presupuesto</button>
-        </section>
-        <section>
-            <div>
-                <div>
-                    <h2>Conoce todo lo que tenemos para ofrecerte</h2>
-                </div>
-                <div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque commodi alias provident, impedit at eum! Dolore quia eum quis quod dolorum tenetur odio explicabo minus incidunt repellat. Maxime, autem dignissimos!</p>
-                </div>
-            </div>
-        </section>
-
 
         <section class="container">
-            <h2 class="section__tittle text-center text-warning">Seguridad Domiciliaria</h2>
             <div class="row ">
                 <div class="card col-lg-3 col-sm-6 col-xs-12">
                     <img src="../recursos/icon__main/shield_with_house_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top tarjeta__imagen" alt="Seguridad Domiciliaria">
@@ -143,23 +126,36 @@
 
     <!-- Comienzo footer -->
     <footer>
-        <div class="footer__social">
-            <div class="footer__tittle">
-                <h2>Seguinos en nuestras redes</h2>
+        <div class="footer__social footer__grid">
+            <div class="footer__list">
+                <div class="footer__tittle">
+                    <h2>Indice</h2>
+                </div>
+                <ul>
+                    <li class="footer__item"><a href="../index.html">Inicio </a></li>
+                    <li class="footer__item"><a href="seguridad-domiciliaria.html">Seguridad Domiciliaria</a></li>
+                    <li class="footer__item"><a href="#">Seguridad Empresarial</a></li>
+                    <li class="footer__item"><a href="sobre-nosotros.html"> Sobre Nosotros</a></li>
+                    <li class="footer__item"><a href="contacto.html"> Contacto</a></li>
+                </ul>
             </div>
+
             <div class="footer__modal">
+                <div class="footer__tittle">
+                    <h2>Seguinos en nuestras redes</h2>
+                </div>
                 <a href="https://www.facebook.com/"><img class="footer__img" src="../recursos/icons/facebook-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/instagram-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/whatsapp-brands.svg"></a>
                 <a><img class="footer__img" src="../recursos/icons/telegram-brands.svg"></a>
             </div>
-        </div>
-        <div class="footer__local">
-            <div class="footer__tittle">
-                <h2>Encontranos en:</h2>
-            </div>
-            <div class="footer__map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.391460910592!2d-58.80875475767753!3d-35.166648543799006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd19db638c4231%3A0xb5b638fcdfe71b41!2sLa%20Noria%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655645490949!5m2!1ses-419!2sar"></iframe>
+            <div class="footer__local">
+                <div class="footer__tittle">
+                    <h2>Encontranos en:</h2>
+                </div>
+                <div class="footer__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13046.391460910592!2d-58.80875475767753!3d-35.166648543799006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd19db638c4231%3A0xb5b638fcdfe71b41!2sLa%20Noria%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655645490949!5m2!1ses-419!2sar"></iframe>
+                </div>
             </div>
         </div>
     </footer>

@@ -11,24 +11,24 @@
     <!-- Link a Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- link a css -->
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Inicio</title>
 </head>
 <body class="body__content">
     <header>
 
         <!-- Barra de navegacion -->
-        <nav class="navbar navbar-expand-lg bg-secondary ">
+        <nav class="navbar navbar-expand-lg bg-dark ">
             <div class="container-fluid">
                 <a class="navbar-brand fs-2" href="#">
                     <img src="recursos/logo-amarillo.png" alt="" width="38" height="55" class="d-inline-block align-text-top">
                 </a>
-                <a class="navbar-brand fs-2">Tecnicos Electronicos Asociados</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand text-light fs-2">Tecnicos Electronicos Asociados</a>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav borrarLista">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="nav-link fs-3 text-warning" aria-current="page" href="#">Inicio</a>
                         </li>
@@ -58,7 +58,7 @@
                     <img src="recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ratio ratio-21x9" data-bs-interval="2000">
-                    <img src="recursos/icons/instagram-brands.svg" class="d-block w-100" alt="...">
+                    <img src="recursos/banner/familia.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item ratio ratio-21x9">
                     <img src="recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg" class="d-block w-100" alt="...">
@@ -75,78 +75,98 @@
         </div>
 
         <!-- Primera seccion -->
-        <section class="container">
-            <h2 class="section__tittle text-center text-warning">Seguridad Domiciliaria</h2>
-            <div class="row">
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/shield_with_house_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen" alt="Seguridad Domiciliaria">
+        <section class="bg-dark ">
+            <div class="text-center text-warning pt-4">
+                <h2>Seguridad Domiciliaria</h2>
+            </div>
+            <div class="container card-group gap-3 py-3">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/shield_with_house_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
                         <h3 class="card-title">Seguridad Domiciliaria</h3>
                         <p class="card-text">Somos expertos en seguridad domiciliaria, brindamos servicios como asesoria, instalacion, mantenimiento y planes de monitoreo ajustados a cada caso</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/detector_smoke_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen" alt="Alarmas contra incendios">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/detector_smoke_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Alarmas contra incendios">
                     <div class="card-body">
                         <h3 class="card-title ">Deteccion de Incendios</h3>
-                        <p class="card-text">Contamos con las mejores marcas probadas para la deteccion de incendios, asegura tu casa u negocio con nosotros y conta con la habilitacion del cuerpo de bomberos</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <p class="card-text">Contamos con las mejores sensores para la deteccion de incendios, asegura tu casa u negocio con nosotros y conta con la habilitacion del cuerpo de bomberos</p>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12 ">
-                    <img src="recursos/icon__main/remote_gen_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen" alt="Seguridad Domiciliaria">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/remote_gen_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
                         <h3 class="card-title">Control de Accesos</h3>
                         <p class="card-text">Desde videoporteros hasta cerraduras biometricas, encontra los ultimos avances tecnologicos en Control de Accesos junto al mejor servicio postventa aca</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/camera_indoor_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen" alt="Seguridad Domiciliaria">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/camera_indoor_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
                         <h3 class="card-title">Video Vigilancia</h3>
                         <p class="card-text">Nuestro equipo tecnico especializado en video vigilancia cuenta con todos los conocimientos necesarios para brindarle la tranquilidad que usted merece</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Segunda seccion -->
-        <section class="container">
-            <h2 class="section__tittle text-center text-warning">Seguridad Domiciliaria</h2>
-            <div class="row ">
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/shield_with_house_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top tarjeta__imagen" alt="Seguridad Domiciliaria">
+        <section class="bg-dark">
+            <div class="text-center text-warning pt-4">
+                <h2>Seguridad Domiciliaria</h2>
+            </div>
+            <div class="container card-group gap-3 py-3">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/shield_with_house_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
-                        <h5 class="card-title">Seguridad Domiciliaria</h5>
+                        <h3 class="card-title">Seguridad Domiciliaria</h3>
                         <p class="card-text">Somos expertos en seguridad domiciliaria, brindamos servicios como asesoria, instalacion, mantenimiento y planes de monitoreo ajustados a cada caso</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/detector_smoke_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top tarjeta__imagen" alt="Alarmas contra incendios">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/detector_smoke_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Alarmas contra incendios">
                     <div class="card-body">
-                        <h5 class="card-title">Deteccion de Incendios</h5>
-                        <p class="card-text">Contamos con las mejores marcas probadas para la deteccion de incendios, asegura tu casa u negocio con nosotros y conta con la habilitacion del cuerpo de bomberos</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <h3 class="card-title ">Deteccion de Incendios</h3>
+                        <p class="card-text">Contamos con las mejores sensores para la deteccion de incendios, asegura tu casa u negocio con nosotros y conta con la habilitacion del cuerpo de bomberos</p>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/remote_gen_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top tarjeta__imagen" alt="Seguridad Domiciliaria">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded ">
+                    <img src="recursos/icon__main/remote_gen_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
-                        <h5 class="card-title">Control de Accesos</h5>
-                        <p class="card-text">Desde videoporteros hasta cerraduras biometricas, encontra los ultimos avances tecnologicos en Control de Accesos junto al mejor servicio postventa</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <h3 class="card-title">Control de Accesos</h3>
+                        <p class="card-text">Desde videoporteros hasta cerraduras biometricas, encontra los ultimos avances tecnologicos en Control de Accesos junto al mejor servicio postventa aca</p>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
-                <div class="card col-lg-3 col-sm-6 col-xs-12">
-                    <img src="recursos/icon__main/camera_indoor_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top tarjeta__imagen" alt="Seguridad Domiciliaria">
+                <div class="section__card card col-lg-3 col-sm-6 col-xs-12 h-100 bg-light rounded">
+                    <img src="recursos/icon__main/camera_indoor_FILL0_wght400_GRAD0_opsz48.png" class="card-img-top mx-auto tarjeta__imagen w-50" alt="Seguridad Domiciliaria">
                     <div class="card-body">
-                        <h5 class="card-title">Video Vigilancia</h5>
+                        <h3 class="card-title">Video Vigilancia</h3>
                         <p class="card-text">Nuestro equipo tecnico especializado en video vigilancia cuenta con todos los conocimientos necesarios para brindarle la tranquilidad que usted merece</p>
-                        <a href="#" class="btn btn-primary">Consultanos!</a>
+                        <div class="d-grid gap-2 mx-auto">
+                            <a href="#" class="btn btn-warning mx-auto">Consultanos!</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -156,7 +176,7 @@
 
     <!-- Comienzo footer -->
     <footer>
-        <div class="footer__social footer">
+        <div class="footer__social footer__grid">
             <div class="footer__list">
                 <div class="footer__tittle">
                     <h2>Indice</h2>

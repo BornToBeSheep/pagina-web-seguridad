@@ -1,0 +1,204 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Teko', sans-serif; }
+
+nav ul li a {
+  color: gold; }
+
+a {
+  text-decoration: none; }
+
+/*          BODY            */
+.body__content {
+  display: grid;
+  grid-template-areas: "nav" "banner" "article__first" "article__second" "footer"; }
+  .body__content .nav {
+    grid-area: nav; }
+  .body__content .banner {
+    grid-area: banner; }
+  .body__content .article__first {
+    grid-area: article__first; }
+  .body__content .article__second {
+    grid-area: article__second; }
+  .body__content .footer__grid {
+    grid-area: footer; }
+
+/*          HEADER          */
+.header__nav {
+  background-color: #515050;
+  width: 100vw;
+  display: flex;
+  flex-direction: row; }
+
+.header__img {
+  padding-left: 0.9vw;
+  height: 8vw; }
+
+.header__tittle {
+  display: flex;
+  flex-direction: column;
+  width: 15vw;
+  font-size: 1.9vw;
+  align-items: center;
+  justify-content: center;
+  color: gold; }
+
+.header__list {
+  background-color: #515050;
+  width: 85vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.header__item {
+  list-style: none;
+  font-size: 2vw;
+  font-weight: Regular 400;
+  align-self: center;
+  background-color: rgba(43, 42, 44, 0.883);
+  color: gold; }
+
+.header__item--special {
+  display: none; }
+
+/*          BANNER          */
+.banner__content {
+  background-image: url("../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg");
+  background-size: cover;
+  background-position: top-center;
+  display: grid;
+  width: 100vw;
+  height: 55vh;
+  grid-template-areas: "banner__title" "banner__parrafo" "banner__tittle--button";
+  justify-items: start;
+  color: aliceblue; }
+
+.banner__tittle {
+  font-size: 5vw;
+  align-self: end;
+  margin-left: 15vh; }
+
+.banner__parrafo {
+  font-size: 2.7vw;
+  margin-left: 15vh;
+  margin-right: 15vh; }
+
+.banner__tittle--button {
+  align-self: start;
+  height: 3vh;
+  margin-left: 27vw; }
+
+/*          PRIMERA SECCION         */
+.tarjeta__imagen {
+  height: 5vh;
+  width: 5vw; }
+
+.section__tittle {
+  background-color: grey; }
+
+.media__pagina {
+  width: 37vw;
+  height: auto; }
+
+.main__article {
+  display: grid;
+  width: 100vw;
+  grid-template-areas: "article__header" "article__content";
+  background-color: #515050; }
+
+.article__header {
+  background-color: #1c1c1c;
+  color: gold;
+  align-self: center;
+  justify-self: center; }
+
+.article__content {
+  grid-area: article__content;
+  display: flex; }
+
+.article__section {
+  background-image: linear-gradient(to right, red, yellow);
+  margin: 3%;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.9vw;
+  transition: all 300ms; }
+
+.article__section:hover {
+  transform: scale(1.05);
+  background-image: linear-gradient(to right, yellow, red); }
+
+.article__section p {
+  text-align: center;
+  padding: 1%;
+  font-size: 1.5vw; }
+
+/*            FOOTER          */
+.footer__social {
+  background-color: #515050;
+  display: grid;
+  grid-template-areas: "list map" "modal modal";
+  align-content: space-between;
+  color: gold; }
+  .footer__social__list {
+    grid-area: list;
+    justify-self: center; }
+    .footer__social__list__tittle {
+      background-color: #1c1c1c; }
+    .footer__social__list__item {
+      list-style: none;
+      color: white; }
+  .footer__social__modal {
+    grid-area: modal;
+    justify-self: center;
+    align-self: center; }
+    .footer__social__modal__img {
+      height: 3vh;
+      justify-self: center; }
+  .footer__social__local {
+    grid-area: map;
+    justify-self: left; }
+
+/*          MEDIA QUERIES CELULAR          */
+@media (min-width: 320px) and (max-width: 575px) {
+  /*      TITULOS     */
+  h2 {
+    font-size: small; }
+  .borrarLista {
+    display: none; }
+  /*      BANNER      */
+  .banner__content {
+    height: 30vh; }
+  /*      CARDS      */
+  .article__content {
+    flex-direction: column; }
+  .footer__social {
+    grid-template-areas: "list" "map" "modal"; }
+  .footer__local {
+    justify-self: center; }
+  .ocultar {
+    display: none; } }
+
+/*          MEDIA QUERIES TABLET            */
+@media (min-width: 576px) and (max-width: 992px) {
+  /*      TITULOS     */
+  h2 {
+    font-size: larger; }
+  .borrarLista {
+    display: none; }
+  /*      BANNER      */
+  .banner__content {
+    height: 40vh; }
+  /*      CARDS      */
+  .article__content {
+    flex-direction: column; }
+  .footer__social {
+    grid-template-areas: "list" "map" "modal"; }
+  .footer__local {
+    justify-self: center; } }
