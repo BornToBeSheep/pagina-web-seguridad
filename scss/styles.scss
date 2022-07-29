@@ -1,3 +1,6 @@
+@import "variables";
+@import "footer";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -42,44 +45,6 @@
     transform: scale(1.05);
     opacity: 100%;
 }
-
-/*            FOOTER          */
-.footer{
-    &__social{
-        background-color: rgb(33,37,41);
-        display: grid;
-        grid-template-areas: "list map"
-                            "modal modal";
-        align-content: space-between;
-        color: gold;
-        .footer__list{
-            grid-area: list;
-            justify-self: center;
-            .footer__item{
-                list-style: none;
-                color: white;
-                & a{
-                    text-decoration: none;
-                    color: gold;
-                    }
-                }
-            }
-        .footer__modal{
-            grid-area: modal;
-            justify-self: center;
-            align-self: center;
-            text-align: center;
-            .footer__img{
-                height: 3vh;
-                justify-self: center;
-                }
-            }
-        .footer__local{
-            grid-area: map;
-            justify-self: center;
-            }
-        }
-    }
 
 /*          MEDIA QUERIES CELULAR          */
 @media (min-width: 320px) and (max-width: 575px) {

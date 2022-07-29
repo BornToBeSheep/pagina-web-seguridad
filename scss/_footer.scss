@@ -1,0 +1,38 @@
+/*            FOOTER          */
+.footer{
+    &__social{
+        background-color: $color-ppal;
+        display: grid;
+        grid-template-areas: "list map"
+                            "modal modal";
+        align-content: space-between;
+        color: $color-sec;
+        .footer__list{
+            grid-area: list;
+            justify-self: center;
+            .footer__item{
+                list-style: none;
+                color: white;
+                & a{
+                    text-decoration: none;
+                    color: gold;
+                    }
+                }
+            }
+        .footer__modal{
+            grid-area: modal;
+            justify-self: center;
+            align-self: center;
+            text-align: center;
+            .footer__img{
+                height: 3vh;
+                justify-self: center;
+                }
+            }
+        .footer__local{
+            grid-area: map;
+            justify-self: center;
+            }
+        }
+    }
+
