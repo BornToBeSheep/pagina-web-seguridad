@@ -26,6 +26,41 @@
     grid-area: map;
     justify-self: center; }
 
+.banner__content {
+  background-image: url(../recursos/banner/familia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 65vh;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    text-shadow: 5px 5px 4px black;
+    justify-self: center; }
+  .banner__content .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content .banner__button {
+    grid-area: boton;
+    background-color: black;
+    color: gold;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    font-size: 2vw;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
 * {
   margin: 0px;
   padding: 0px;
