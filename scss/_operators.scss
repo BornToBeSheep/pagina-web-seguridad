@@ -1,0 +1,7 @@
+
+
+@mixin text-banner($size, $color-text, $posicion){
+    font-size: $size;
+    color: $color-text;
+    justify-self: $posicion;
+}
