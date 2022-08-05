@@ -15,17 +15,12 @@
     .banner{
         &__title{
             grid-area: titulo;
-            font-size: 6vw;
-
-            color: gold;
+            @include text-banner( 6vw, gold, center);
             text-shadow:5px 5px 4px black;
-            justify-self: center;
         }
         &__parrafo{
             grid-area: subtitulo;
-            font-size: 4vw;
-            color: gold;
-            justify-self: center;
+            @include text-banner(4vw, gold, center);
             margin-left: 2vw;
             text-shadow: 5px 5px 4px black;
             
@@ -33,15 +28,13 @@
         &__button{
             grid-area: boton;
             background-color: black;
-            color: gold;
+            @include text-banner( 2vw, gold, center);
             border: solid 2px gold;
             
 
             width: fit-content;
             height: fit-content;
 
-            justify-self: center;
-            font-size: 2vw;
             padding: 1vw;
             margin-bottom: 4vh;
         }

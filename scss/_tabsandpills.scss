@@ -1,0 +1,49 @@
+.button__content{
+    width: 30vw;
+    .button{
+        &__img{
+
+        }
+        &__span{
+
+        }
+    }
+}
+
+.section__article{
+    background-color: rgb(33,37,41);
+    color: black;
+
+    font-size: 2rem;
+    padding: 1vw;
+    .article__content{
+        text-align: center;
+        .article{
+            &__header{
+                .article__img{
+                    width: 6vw;
+                    margin: 1vw;
+                }
+            }
+            &__title{
+                font-size: 3rem;
+            }
+            &__card{
+                background-color: white;
+                margin: 2vw;
+                padding: 1vw;
+                
+
+                text-align: start;
+                .article{
+                    &__subtitle{
+                        font-size: 2.5rem;
+                        border-bottom: 0.2vw solid gold;
+                    }
+                    &__parraf{
+                    }
+                }
+            }
+        }
+    }
+}
