@@ -40,8 +40,8 @@
     grid-area: titulo;
     font-size: 6vw;
     color: gold;
-    text-shadow: 5px 5px 4px black;
-    justify-self: center; }
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
   .banner__content .banner__parrafo {
     grid-area: subtitulo;
     font-size: 4vw;
@@ -52,14 +52,38 @@
   .banner__content .banner__button {
     grid-area: boton;
     background-color: black;
+    font-size: 2vw;
     color: gold;
+    justify-self: center;
     border: solid 2px gold;
     width: fit-content;
     height: fit-content;
-    justify-self: center;
-    font-size: 2vw;
     padding: 1vw;
     margin-bottom: 4vh; }
+
+.button__content {
+  width: 30vw; }
+
+.section__article {
+  background-color: #212529;
+  color: black;
+  font-size: 2rem;
+  padding: 1vw; }
+  .section__article .article__content {
+    text-align: center; }
+    .section__article .article__content .article__header .article__img {
+      width: 6vw;
+      margin: 1vw; }
+    .section__article .article__content .article__title {
+      font-size: 3rem; }
+    .section__article .article__content .article__card {
+      background-color: white;
+      margin: 2vw;
+      padding: 1vw;
+      text-align: start; }
+      .section__article .article__content .article__card .article__subtitle {
+        font-size: 2.5rem;
+        border-bottom: 0.2vw solid gold; }
 
 * {
   margin: 0px;
@@ -82,11 +106,23 @@
     grid-area: footer; }
 
 /*              SECTION CARDS           */
-.section__card {
-  transition: all 500ms ease-out;
-  opacity: 50%; }
+.section__title {
+  text-shadow: 5px 5px 10px black;
+  border-bottom-left-radius: 12px; }
 
-.section__card:hover {
+.break-line {
+  border: 1px solid gold;
+  width: 30%;
+  box-shadow: 5px 5px 10px black; }
+
+.section__content .section__card {
+  transition: all 500ms ease-out;
+  box-shadow: 5px 5px 30px black; }
+  .section__content .section__card .section__img {
+    margin: 1rem;
+    height: 7rem; }
+
+.section__content .section__card:hover {
   transform: scale(1.05);
   opacity: 100%; }
 

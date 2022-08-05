@@ -1,6 +1,8 @@
 @import "variables";
+@import "operators";
 @import "footer";
 @import "banner";
+@import "tabsandpills";
 
 *{
     margin: 0px;
@@ -38,15 +40,32 @@
 }
 
 /*              SECTION CARDS           */
-.section__card{
-    transition: all 500ms ease-out;
-    opacity: 50%;
-}
-.section__card:hover{
-    transform: scale(1.05);
-    opacity: 100%;
-}
 
+.section__title{
+    text-shadow:5px 5px 10px black;
+    border-bottom-left-radius: 12px;
+}
+.break-line{
+    border: 1px solid gold;
+    width: 30%;
+    box-shadow:5px 5px 10px black;
+}
+.section__content{
+    .section{
+        &__card{
+            transition: all 500ms ease-out;
+            box-shadow: 5px 5px 30px black;
+            .section__img{
+                margin: 1rem;
+                height: 7rem;
+            }
+        }
+        &__card:hover{
+            transform: scale(1.05);
+            opacity: 100%;
+        }
+    }
+}
 /*          MEDIA QUERIES CELULAR          */
 @media (min-width: 320px) and (max-width: 575px) {
         .footer__social{
