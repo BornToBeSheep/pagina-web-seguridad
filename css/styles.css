@@ -1,10 +1,10 @@
 /*            FOOTER          */
 .footer__social {
-  background-color: #c9ff;
+  background-color: #212529;
   display: grid;
   grid-template-areas: "list map" "modal modal";
   align-content: space-between;
-  color: #000; }
+  color: gold; }
   .footer__social .footer__list {
     grid-area: list;
     justify-self: center; }
@@ -31,7 +31,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
-  height: 65vh;
+  height: 50vw;
   display: grid;
   justify-content: center;
   grid-template-rows: 9fr 1fr 1fr  1fr;
