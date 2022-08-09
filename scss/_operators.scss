@@ -1,7 +1,38 @@
 
+@mixin banner-text{
+    .banner{
+        &__title{
+            grid-area: titulo;
+            @include text-banner( 6vw, gold, center);
+            text-shadow:5px 5px 4px black;
+        }
+        &__parrafo{
+            grid-area: subtitulo;
+            @include text-banner(4vw, gold, center);
+            margin-left: 2vw;
+            text-shadow: 5px 5px 4px black;
+            
+        }
+        &__button{
+            grid-area: boton;
+            background-color: black;
+            @include text-banner( 2vw, gold, center);
+            border: solid 2px gold;
+            
+
+            width: fit-content;
+            height: fit-content;
+
+            padding: 1vw;
+            margin-bottom: 4vh;
+        }
+    }
+}
+
 
 @mixin text-banner($size, $color-text, $posicion){
     font-size: $size;
     color: $color-text;
     justify-self: $posicion;
 }
+

@@ -1,8 +1,11 @@
 @import "variables";
 @import "operators";
-@import "footer";
 @import "banner";
+@import "cards";
+@import "aboutUs";
 @import "tabsandpills";
+@import "footer";
+
 
 *{
     margin: 0px;
@@ -12,60 +15,8 @@
 
 
 
-/*          BODY            */
-.body{
-    &__content{
-        display: grid;
-        grid-template-areas: "nav"
-                            "banner"
-                            "article__first"
-                            "article__second"
-                            "footer";
-        .nav{
-            grid-area: nav;
-            }
-        .banner{
-        grid-area: banner;
-            }
-        .article__first{
-            grid-area: article__first;
-            }
-        .article__second{
-            grid-area: article__second;
-            }
-        .footer__grid{
-            grid-area: footer;
-            }
-    }
-}
 
-/*              SECTION CARDS           */
 
-.section__title{
-    text-shadow:5px 5px 10px black;
-    border-bottom-left-radius: 12px;
-}
-.break-line{
-    border: 1px solid gold;
-    width: 30%;
-    box-shadow:5px 5px 10px black;
-}
-.section__content{
-    .section{
-        &__card{
-            transition: all 500ms ease-out;
-            box-shadow: 5px 5px 30px black;
-            .section__img{
-                margin: 1rem;
-                height: 7rem;
-            }
-        }
-        &__card:hover{
-            transform: scale(1.05);
-            opacity: 100%;
-        }
-    }
-}
 /*          MEDIA QUERIES CELULAR          */
 @media (min-width: 320px) and (max-width: 575px) {
         .footer__social{

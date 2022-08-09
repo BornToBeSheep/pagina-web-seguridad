@@ -1,0 +1,27 @@
+/*              SECTION CARDS           */
+
+.section__title{
+    text-shadow:5px 5px 10px black;
+    border-bottom-left-radius: 12px;
+}
+.break-line{
+    border: 1px solid gold;
+    width: 30%;
+    box-shadow:5px 5px 10px black;
+}
+.section__content{
+    .section{
+        &__card{
+            transition: all 500ms ease-out;
+            box-shadow: 5px 5px 30px black;
+            .section__img{
+                margin: 1rem;
+                height: 7rem;
+            }
+        }
+        &__card:hover{
+            transform: scale(1.05);
+            opacity: 100%;
+        }
+    }
+}

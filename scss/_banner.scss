@@ -1,4 +1,4 @@
-.banner__content{
+.banner__content--index{
     background-image: url(../recursos/banner/familia.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -12,31 +12,73 @@
                         "titulo"
                         "subtitulo"
                         "boton";
-    .banner{
-        &__title{
-            grid-area: titulo;
-            @include text-banner( 6vw, gold, center);
-            text-shadow:5px 5px 4px black;
-        }
-        &__parrafo{
-            grid-area: subtitulo;
-            @include text-banner(4vw, gold, center);
-            margin-left: 2vw;
-            text-shadow: 5px 5px 4px black;
-            
-        }
-        &__button{
-            grid-area: boton;
-            background-color: black;
-            @include text-banner( 2vw, gold, center);
-            border: solid 2px gold;
-            
+    @include banner-text;
+}
 
-            width: fit-content;
-            height: fit-content;
+.banner__content--nosotros{
+    background-image: url(../recursos/banner/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vw;
 
-            padding: 1vw;
-            margin-bottom: 4vh;
-        }
-    }
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 9fr 1fr 1fr  1fr ;
+    grid-template-areas: "."
+                        "titulo"
+                        "subtitulo"
+                        "boton";
+    @include banner-text;
+}
+
+.banner__content--domiciliaria{
+    background-image: url(../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50vw;
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 9fr 1fr 1fr  1fr ;
+    grid-template-areas: "."
+                        "titulo"
+                        "subtitulo"
+                        "boton";
+    @include banner-text;
+}
+
+.banner__content--empresarial{
+    background-image: url(../recursos/banner/rohan-g-imwaY7KA9qs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 50vw;
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 9fr 1fr 1fr  1fr ;
+    grid-template-areas: "."
+                        "titulo"
+                        "subtitulo"
+                        "boton";
+    @include banner-text;
+}
+
+.banner__content--contacto{
+    background-image: url(../recursos/banner/pixasquare-4ojhpgKpS68-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+    height: 50vw;
+
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 9fr 1fr 1fr  1fr ;
+    grid-template-areas: "."
+                        "titulo"
+                        "subtitulo"
+                        "boton";
+    @include banner-text;
 }

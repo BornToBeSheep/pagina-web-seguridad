@@ -1,0 +1,38 @@
+
+/*   -----------  SOBRE NOSOTROS   ------------   */
+
+.about__content{
+    background-color: $color-ppal;
+    padding: 2vh;
+    .about__article{
+        width: 80%;
+        margin: auto;
+        padding: 1vw;
+        background-color: aliceblue;
+        box-shadow: 5px 5px 15px black;
+        
+        }
+    .about__separator{
+        margin: 2vh;
+        display: grid;
+        grid-template-areas: ". image ."
+                            "line image line"
+                            ". image .";
+        grid-template-columns: 5.5fr 1fr 5.5fr;
+        .about{
+            &__line{
+                grid-area: "line";
+                align-self: center;
+                border: 1px solid gold;
+                width: 90%;
+                height: 1px;
+                box-shadow: 5px 5px 3px black;
+            }
+            &__image{
+                grid-area: "image";
+                height: 6vh;
+                justify-self: center;
+            }
+        }
+    }
+}

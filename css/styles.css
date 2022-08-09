@@ -1,3 +1,247 @@
+.banner__content--index {
+  background-image: url(../recursos/banner/familia.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content--index .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--index .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--index .banner__button {
+    grid-area: boton;
+    background-color: black;
+    font-size: 2vw;
+    color: gold;
+    justify-self: center;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
+.banner__content--nosotros {
+  background-image: url(../recursos/banner/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content--nosotros .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--nosotros .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--nosotros .banner__button {
+    grid-area: boton;
+    background-color: black;
+    font-size: 2vw;
+    color: gold;
+    justify-self: center;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
+.banner__content--domiciliaria {
+  background-image: url(../recursos/banner/valentina-locatelli-P8bsrm8KbM0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content--domiciliaria .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--domiciliaria .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--domiciliaria .banner__button {
+    grid-area: boton;
+    background-color: black;
+    font-size: 2vw;
+    color: gold;
+    justify-self: center;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
+.banner__content--empresarial {
+  background-image: url(../recursos/banner/rohan-g-imwaY7KA9qs-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content--empresarial .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--empresarial .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--empresarial .banner__button {
+    grid-area: boton;
+    background-color: black;
+    font-size: 2vw;
+    color: gold;
+    justify-self: center;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
+.banner__content--contacto {
+  background-image: url(../recursos/banner/pixasquare-4ojhpgKpS68-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 70%;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 9fr 1fr 1fr  1fr;
+  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
+  .banner__content--contacto .banner__title {
+    grid-area: titulo;
+    font-size: 6vw;
+    color: gold;
+    justify-self: center;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--contacto .banner__parrafo {
+    grid-area: subtitulo;
+    font-size: 4vw;
+    color: gold;
+    justify-self: center;
+    margin-left: 2vw;
+    text-shadow: 5px 5px 4px black; }
+  .banner__content--contacto .banner__button {
+    grid-area: boton;
+    background-color: black;
+    font-size: 2vw;
+    color: gold;
+    justify-self: center;
+    border: solid 2px gold;
+    width: fit-content;
+    height: fit-content;
+    padding: 1vw;
+    margin-bottom: 4vh; }
+
+/*              SECTION CARDS           */
+.section__title {
+  text-shadow: 5px 5px 10px black;
+  border-bottom-left-radius: 12px; }
+
+.break-line {
+  border: 1px solid gold;
+  width: 30%;
+  box-shadow: 5px 5px 10px black; }
+
+.section__content .section__card {
+  transition: all 500ms ease-out;
+  box-shadow: 5px 5px 30px black; }
+  .section__content .section__card .section__img {
+    margin: 1rem;
+    height: 7rem; }
+
+.section__content .section__card:hover {
+  transform: scale(1.05);
+  opacity: 100%; }
+
+/*   -----------  SOBRE NOSOTROS   ------------   */
+.about__content {
+  background-color: #212529;
+  padding: 2vh; }
+  .about__content .about__article {
+    width: 80%;
+    margin: auto;
+    padding: 1vw;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 15px black; }
+  .about__content .about__separator {
+    margin: 2vh;
+    display: grid;
+    grid-template-areas: ". image ." "line image line" ". image .";
+    grid-template-columns: 5.5fr 1fr 5.5fr; }
+    .about__content .about__separator .about__line {
+      grid-area: "line";
+      align-self: center;
+      border: 1px solid gold;
+      width: 90%;
+      height: 1px;
+      box-shadow: 5px 5px 3px black; }
+    .about__content .about__separator .about__image {
+      grid-area: "image";
+      height: 6vh;
+      justify-self: center; }
+
+.section__article {
+  background-color: #212529;
+  color: black;
+  font-size: 2rem;
+  padding: 1vw; }
+  .section__article .article__content {
+    text-align: center; }
+    .section__article .article__content .article__header .article__img {
+      width: 6vw;
+      margin: 1vw; }
+    .section__article .article__content .article__title {
+      font-size: 3rem; }
+    .section__article .article__content .article__card {
+      background-color: white;
+      margin: 2vw;
+      padding: 1vw;
+      text-align: start; }
+      .section__article .article__content .article__card .article__subtitle {
+        font-size: 2.5rem;
+        border-bottom: 0.2vw solid gold; }
+
 /*            FOOTER          */
 .footer__social {
   background-color: #212529;
@@ -26,105 +270,10 @@
     grid-area: map;
     justify-self: center; }
 
-.banner__content {
-  background-image: url(../recursos/banner/familia.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
-  height: 50vw;
-  display: grid;
-  justify-content: center;
-  grid-template-rows: 9fr 1fr 1fr  1fr;
-  grid-template-areas: "." "titulo" "subtitulo" "boton"; }
-  .banner__content .banner__title {
-    grid-area: titulo;
-    font-size: 6vw;
-    color: gold;
-    justify-self: center;
-    text-shadow: 5px 5px 4px black; }
-  .banner__content .banner__parrafo {
-    grid-area: subtitulo;
-    font-size: 4vw;
-    color: gold;
-    justify-self: center;
-    margin-left: 2vw;
-    text-shadow: 5px 5px 4px black; }
-  .banner__content .banner__button {
-    grid-area: boton;
-    background-color: black;
-    font-size: 2vw;
-    color: gold;
-    justify-self: center;
-    border: solid 2px gold;
-    width: fit-content;
-    height: fit-content;
-    padding: 1vw;
-    margin-bottom: 4vh; }
-
-.button__content {
-  width: 30vw; }
-
-.section__article {
-  background-color: #212529;
-  color: black;
-  font-size: 2rem;
-  padding: 1vw; }
-  .section__article .article__content {
-    text-align: center; }
-    .section__article .article__content .article__header .article__img {
-      width: 6vw;
-      margin: 1vw; }
-    .section__article .article__content .article__title {
-      font-size: 3rem; }
-    .section__article .article__content .article__card {
-      background-color: white;
-      margin: 2vw;
-      padding: 1vw;
-      text-align: start; }
-      .section__article .article__content .article__card .article__subtitle {
-        font-size: 2.5rem;
-        border-bottom: 0.2vw solid gold; }
-
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Teko', sans-serif; }
-
-/*          BODY            */
-.body__content {
-  display: grid;
-  grid-template-areas: "nav" "banner" "article__first" "article__second" "footer"; }
-  .body__content .nav {
-    grid-area: nav; }
-  .body__content .banner {
-    grid-area: banner; }
-  .body__content .article__first {
-    grid-area: article__first; }
-  .body__content .article__second {
-    grid-area: article__second; }
-  .body__content .footer__grid {
-    grid-area: footer; }
-
-/*              SECTION CARDS           */
-.section__title {
-  text-shadow: 5px 5px 10px black;
-  border-bottom-left-radius: 12px; }
-
-.break-line {
-  border: 1px solid gold;
-  width: 30%;
-  box-shadow: 5px 5px 10px black; }
-
-.section__content .section__card {
-  transition: all 500ms ease-out;
-  box-shadow: 5px 5px 30px black; }
-  .section__content .section__card .section__img {
-    margin: 1rem;
-    height: 7rem; }
-
-.section__content .section__card:hover {
-  transform: scale(1.05);
-  opacity: 100%; }
 
 /*          MEDIA QUERIES CELULAR          */
 @media (min-width: 320px) and (max-width: 575px) {
