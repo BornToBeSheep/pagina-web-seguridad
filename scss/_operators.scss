@@ -3,12 +3,12 @@
     .banner{
         &__title{
             grid-area: titulo;
-            @include text-banner( 6vw, gold, center);
+            @include text-banner( 6vw, $color-sec, center);
             text-shadow:5px 5px 4px black;
         }
         &__parrafo{
             grid-area: subtitulo;
-            @include text-banner(4vw, gold, center);
+            @include text-banner(4vw, $color-sec, center);
             margin-left: 2vw;
             text-shadow: 5px 5px 4px black;
             
@@ -16,8 +16,8 @@
         &__button{
             grid-area: boton;
             background-color: black;
-            @include text-banner( 2vw, gold, center);
-            border: solid 2px gold;
+            @include text-banner( 2vw, $color-sec, center);
+            border: solid 2px $color-sec;
             
 
             width: fit-content;

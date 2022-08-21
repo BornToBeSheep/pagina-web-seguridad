@@ -12,25 +12,3 @@
     padding: 0px;
     font-family: 'Teko', sans-serif;
 }
-
-
-
-
-
-/*          MEDIA QUERIES CELULAR          */
-@media (min-width: 320px) and (max-width: 575px) {
-        .footer__social{
-            grid-template-areas: "list"
-                            "map"
-                            "modal";
-        }
-}
-
-/*          MEDIA QUERIES TABLET            */
-@media (min-width: 576px) and (max-width: 992px) {
-        .footer__social{
-            grid-template-areas: "list"
-                                "map"
-                                "modal";
-        }
-}

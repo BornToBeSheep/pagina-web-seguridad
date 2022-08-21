@@ -15,7 +15,7 @@
                 color: white;
                 & a{
                     text-decoration: none;
-                    color: gold;
+                    color: $color-sec;
                     }
                 }
             }
@@ -27,6 +27,9 @@
             .footer__img{
                 height: 3vh;
                 justify-self: center;
+                margin: 1vh;
+                background-color: $color-sec;
+                border-radius: 20%;
                 }
             }
         .footer__local{

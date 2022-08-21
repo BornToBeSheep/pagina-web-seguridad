@@ -3,9 +3,10 @@
 .section__title{
     text-shadow:5px 5px 10px black;
     border-bottom-left-radius: 12px;
+    font-size: 3vw;
 }
 .break-line{
-    border: 1px solid gold;
+    border: 1px solid $color-sec;
     width: 30%;
     box-shadow:5px 5px 10px black;
 }
@@ -15,8 +16,16 @@
             transition: all 500ms ease-out;
             box-shadow: 5px 5px 30px black;
             .section__img{
-                margin: 1rem;
-                height: 7rem;
+                margin: 1vw;
+                width: 10vw;
+            }
+            .card{
+                &-title{
+                    font-size: 3vw;
+                }
+                &-text{
+                    font-size: 2vw;
+                }
             }
         }
         &__card:hover{

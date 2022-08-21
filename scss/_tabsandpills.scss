@@ -1,8 +1,12 @@
-.button__content{
+.button__content img{
+    height: 5vw;
+    padding-top: 1vh;
 }
-
+.nav-pills{
+    --bs-nav-pills-link-active-bg: white;
+}
 .section__article{
-    background-color: rgb(33,37,41);
+    background-color: $color-ppal;
     color: black;
 
     font-size: 2rem;
@@ -16,22 +20,19 @@
                     margin: 1vw;
                 }
             }
-            &__title{
-                font-size: 3rem;
-            }
             &__card{
                 background-color: white;
                 margin: 2vw;
                 padding: 1vw;
                 
-
                 text-align: start;
                 .article{
                     &__subtitle{
-                        font-size: 2.5rem;
-                        border-bottom: 0.2vw solid gold;
+                        font-size: 3vw;
+                        border-bottom: 0.2vw solid $color-sec;
                     }
                     &__parraf{
+                        font-size: 2vw;
                     }
                 }
             }

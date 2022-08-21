@@ -3,17 +3,24 @@
 
 .about__content{
     background-color: $color-ppal;
-    padding: 2vh;
+    padding: 2vw;
     .about__article{
         width: 80%;
         margin: auto;
         padding: 1vw;
         background-color: aliceblue;
         box-shadow: 5px 5px 15px black;
-        
+        .about{
+            &__title{
+                font-size: 4vw;
+            }
+            &__text{
+                font-size: 2vw;
+            }
         }
+    }
     .about__separator{
-        margin: 2vh;
+        margin: 2vw;
         display: grid;
         grid-template-areas: ". image ."
                             "line image line"
@@ -23,7 +30,7 @@
             &__line{
                 grid-area: "line";
                 align-self: center;
-                border: 1px solid gold;
+                border: 1px solid $color-sec;
                 width: 90%;
                 height: 1px;
                 box-shadow: 5px 5px 3px black;
