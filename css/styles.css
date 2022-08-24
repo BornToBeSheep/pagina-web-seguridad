@@ -294,6 +294,6 @@
   padding: 0px;
   font-family: 'Teko', sans-serif; }
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 390px) and (max-width: 992px) {
   .footer__social {
     grid-template-areas: "list" "modal" "map"; } }
